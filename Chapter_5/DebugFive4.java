@@ -36,5 +36,8 @@ public class DebugFive4
         }
 
         System.out.println("The highest number is " + highest);
+
+        input.close();
     }
 }
+
