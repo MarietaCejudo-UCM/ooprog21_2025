@@ -18,7 +18,7 @@ public class DebugFive2
         System.out.print("Enter another number " );
         num2 = input.nextInt();
 
-        if((num % num2 == 0) || (num2 % num) == 0)
+        if((num % num2 == 0) || (num2 % num == 0))
         {
             System.out.println("One of these numbers is");
             System.out.println("evenly divisible into the other.");
@@ -27,5 +27,8 @@ public class DebugFive2
             System.out.println("Neither of these numbers is");
             System.out.println("evenly divisible into the other.");
         }
+
+        input.close();
     }
 }
+
