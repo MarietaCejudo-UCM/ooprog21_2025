@@ -38,5 +38,6 @@ public class DebugFive1
 
     System.out.println("Total bill is " + bill);
     
+
     }
 }
