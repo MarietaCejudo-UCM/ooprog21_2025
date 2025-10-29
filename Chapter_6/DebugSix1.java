@@ -21,5 +21,8 @@ public class DebugSix1
              money = money * 2;
             ++day;
         }
+
+        keyboard.close();
     }
 }
+
