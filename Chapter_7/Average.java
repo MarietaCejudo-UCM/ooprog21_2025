@@ -1,13 +1,17 @@
 public class Average {
 
-public static int countGreaterElements(int[] arr) {
+    public static double calculateAverage(int sum, int count) {
+        return (double) sum / count;
+    }
+
+    public static int countGreaterElements(int[] arr) {
         int count = 0;
         int sum = 0;
 
         for (int i = 0; i < arr.length; i++) {
 
             if (i > 0) { 
-                double average = (double) sum / i;
+                double average = calculateAverage(sum, i);
 
                 if (arr[i] > average) {
                     count++;
